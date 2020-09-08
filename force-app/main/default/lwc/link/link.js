@@ -25,8 +25,8 @@ export default class Link extends LightningElement {
     setCurrentPath() {
         this.currentPath = this.routerInstance.currentPath;
     }
-    handleClick(e) {
-        e.stopPropagation();
+    handleClick(event) {
+        event.stopPropagation();
         if (this.to) {
             this.routerInstance.currentPath = this.to;
             this.currentPath = this.to;

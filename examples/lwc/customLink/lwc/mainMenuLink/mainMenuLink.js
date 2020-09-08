@@ -18,8 +18,8 @@ export default class MainMenuLink extends Link {
      * Otherwise, no need to write handler method.
      * You can directly use {handleClick} in the html file
      */
-    handleClick(e) {
-        super.handleClick(e);
+    handleClick(event) {
+        super.handleClick(event);
         //Some custom logic if you needed.
     }
 
